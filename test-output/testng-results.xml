@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="36" passed="35">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="571394" started-at="2021-12-05T22:33:49 IST" finished-at="2021-12-05T22:43:21 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="571394" started-at="2021-12-05T22:33:49 IST" finished-at="2021-12-05T22:43:21 IST">
+      <class name="com.Test.DownloadsPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.DownloadsPageTest@2fd66ad3]" name="setup" is-config="true" duration-ms="9764" started-at="2021-12-05T22:41:01 IST" finished-at="2021-12-05T22:41:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Verify32bitusers()[pri:0, instance:com.Test.DownloadsPageTest@2fd66ad3]" name="Verify32bitusers" duration-ms="471" started-at="2021-12-05T22:41:11 IST" finished-at="2021-12-05T22:41:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify32bitusers -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.DownloadsPageTest@2fd66ad3]" name="tearDown" is-config="true" duration-ms="543" started-at="2021-12-05T22:41:11 IST" finished-at="2021-12-05T22:41:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.DownloadsPageTest -->
+      <class name="com.Test.DashBoardTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.DashBoardTest@376b4233]" name="setup" is-config="true" duration-ms="7727" started-at="2021-12-05T22:38:13 IST" finished-at="2021-12-05T22:38:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckTotalinnerBox()[pri:1, instance:com.Test.DashBoardTest@376b4233]" name="CheckTotalinnerBox" duration-ms="19" started-at="2021-12-05T22:38:20 IST" finished-at="2021-12-05T22:38:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTotalinnerBox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.DashBoardTest@376b4233]" name="tearDown" is-config="true" duration-ms="66" started-at="2021-12-05T22:38:20 IST" finished-at="2021-12-05T22:38:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.DashBoardTest@376b4233]" name="setup" is-config="true" duration-ms="9891" started-at="2021-12-05T22:38:20 IST" finished-at="2021-12-05T22:38:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidDashboardPage()[pri:2, instance:com.Test.DashBoardTest@376b4233]" name="ValidDashboardPage" duration-ms="34" started-at="2021-12-05T22:38:30 IST" finished-at="2021-12-05T22:38:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidDashboardPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.DashBoardTest@376b4233]" name="tearDown" is-config="true" duration-ms="141" started-at="2021-12-05T22:38:30 IST" finished-at="2021-12-05T22:38:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.DashBoardTest@376b4233]" name="setup" is-config="true" duration-ms="12573" started-at="2021-12-05T22:38:30 IST" finished-at="2021-12-05T22:38:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckTotalCourses()[pri:3, instance:com.Test.DashBoardTest@376b4233]" name="CheckTotalCourses" duration-ms="75" started-at="2021-12-05T22:38:43 IST" finished-at="2021-12-05T22:38:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTotalCourses -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.DashBoardTest@376b4233]" name="tearDown" is-config="true" duration-ms="79" started-at="2021-12-05T22:38:43 IST" finished-at="2021-12-05T22:38:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.DashBoardTest@376b4233]" name="setup" is-config="true" duration-ms="15274" started-at="2021-12-05T22:38:43 IST" finished-at="2021-12-05T22:38:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TotalMoreInfoLink()[pri:4, instance:com.Test.DashBoardTest@376b4233]" name="TotalMoreInfoLink" duration-ms="20" started-at="2021-12-05T22:38:58 IST" finished-at="2021-12-05T22:38:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TotalMoreInfoLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.DashBoardTest@376b4233]" name="tearDown" is-config="true" duration-ms="145" started-at="2021-12-05T22:38:58 IST" finished-at="2021-12-05T22:38:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.DashBoardTest@376b4233]" name="setup" is-config="true" duration-ms="12652" started-at="2021-12-05T22:38:59 IST" finished-at="2021-12-05T22:39:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="WindowHandeling()[pri:5, instance:com.Test.DashBoardTest@376b4233]" name="WindowHandeling" duration-ms="19007" started-at="2021-12-05T22:39:11 IST" finished-at="2021-12-05T22:39:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowHandeling -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.DashBoardTest@376b4233]" name="tearDown" is-config="true" duration-ms="68" started-at="2021-12-05T22:39:30 IST" finished-at="2021-12-05T22:39:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.DashBoardTest@376b4233]" name="setup" is-config="true" duration-ms="23153" started-at="2021-12-05T22:39:30 IST" finished-at="2021-12-05T22:39:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NoOfIcons()[pri:6, instance:com.Test.DashBoardTest@376b4233]" name="NoOfIcons" duration-ms="16" started-at="2021-12-05T22:39:53 IST" finished-at="2021-12-05T22:39:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NoOfIcons -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.DashBoardTest@376b4233]" name="tearDown" is-config="true" duration-ms="1757" started-at="2021-12-05T22:39:53 IST" finished-at="2021-12-05T22:39:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.DashBoardTest@376b4233]" name="setup" is-config="true" duration-ms="18867" started-at="2021-12-05T22:39:55 IST" finished-at="2021-12-05T22:40:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkUsersLinkMenu()[pri:7, instance:com.Test.DashBoardTest@376b4233]" name="checkUsersLinkMenu" duration-ms="1906" started-at="2021-12-05T22:40:14 IST" finished-at="2021-12-05T22:40:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUsersLinkMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.DashBoardTest@376b4233]" name="tearDown" is-config="true" duration-ms="4161" started-at="2021-12-05T22:40:16 IST" finished-at="2021-12-05T22:40:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.DashBoardTest@376b4233]" name="setup" is-config="true" duration-ms="19690" started-at="2021-12-05T22:40:20 IST" finished-at="2021-12-05T22:40:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkOperatorsLinkMenu()[pri:8, instance:com.Test.DashBoardTest@376b4233]" name="checkOperatorsLinkMenu" duration-ms="551" started-at="2021-12-05T22:40:40 IST" finished-at="2021-12-05T22:40:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOperatorsLinkMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.DashBoardTest@376b4233]" name="tearDown" is-config="true" duration-ms="54" started-at="2021-12-05T22:40:40 IST" finished-at="2021-12-05T22:40:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.DashBoardTest@376b4233]" name="setup" is-config="true" duration-ms="8900" started-at="2021-12-05T22:40:40 IST" finished-at="2021-12-05T22:40:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkDownloadsLinkMenu()[pri:9, instance:com.Test.DashBoardTest@376b4233]" name="checkDownloadsLinkMenu" duration-ms="1108" started-at="2021-12-05T22:40:49 IST" finished-at="2021-12-05T22:40:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDownloadsLinkMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.DashBoardTest@376b4233]" name="tearDown" is-config="true" duration-ms="92" started-at="2021-12-05T22:40:50 IST" finished-at="2021-12-05T22:40:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.DashBoardTest@376b4233]" name="setup" is-config="true" duration-ms="9205" started-at="2021-12-05T22:40:51 IST" finished-at="2021-12-05T22:41:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkLogoutLinkMenu()[pri:10, instance:com.Test.DashBoardTest@376b4233]" name="checkLogoutLinkMenu" duration-ms="337" started-at="2021-12-05T22:41:00 IST" finished-at="2021-12-05T22:41:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogoutLinkMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.DashBoardTest@376b4233]" name="tearDown" is-config="true" duration-ms="912" started-at="2021-12-05T22:41:00 IST" finished-at="2021-12-05T22:41:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.DashBoardTest -->
+      <class name="com.Test.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.LoginTest@42607a4f]" name="setup" is-config="true" duration-ms="79116" started-at="2021-12-05T22:33:49 IST" finished-at="2021-12-05T22:35:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ValidetUrl()[pri:1, instance:com.Test.LoginTest@42607a4f]" name="ValidetUrl" duration-ms="74" started-at="2021-12-05T22:35:08 IST" finished-at="2021-12-05T22:35:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidetUrl -->
+        <test-method status="PASS" signature="Fire()[pri:0, instance:com.Test.LoginTest@42607a4f]" name="Fire" is-config="true" duration-ms="1309" started-at="2021-12-05T22:35:08 IST" finished-at="2021-12-05T22:35:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fire -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.LoginTest@42607a4f]" name="setup" is-config="true" duration-ms="21206" started-at="2021-12-05T22:35:10 IST" finished-at="2021-12-05T22:35:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PasswordError()[pri:2, instance:com.Test.LoginTest@42607a4f]" name="PasswordError" duration-ms="2204" started-at="2021-12-05T22:35:31 IST" finished-at="2021-12-05T22:35:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswordError -->
+        <test-method status="PASS" signature="Fire()[pri:0, instance:com.Test.LoginTest@42607a4f]" name="Fire" is-config="true" duration-ms="446" started-at="2021-12-05T22:35:33 IST" finished-at="2021-12-05T22:35:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fire -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.LoginTest@42607a4f]" name="setup" is-config="true" duration-ms="14288" started-at="2021-12-05T22:35:34 IST" finished-at="2021-12-05T22:35:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="mailError()[pri:3, instance:com.Test.LoginTest@42607a4f]" name="mailError" duration-ms="1248" started-at="2021-12-05T22:35:48 IST" finished-at="2021-12-05T22:35:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mailError -->
+        <test-method status="PASS" signature="Fire()[pri:0, instance:com.Test.LoginTest@42607a4f]" name="Fire" is-config="true" duration-ms="419" started-at="2021-12-05T22:35:49 IST" finished-at="2021-12-05T22:35:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fire -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.LoginTest@42607a4f]" name="setup" is-config="true" duration-ms="10801" started-at="2021-12-05T22:35:50 IST" finished-at="2021-12-05T22:36:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Checkmailbox()[pri:5, instance:com.Test.LoginTest@42607a4f]" name="Checkmailbox" duration-ms="549" started-at="2021-12-05T22:36:00 IST" finished-at="2021-12-05T22:36:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkmailbox -->
+        <test-method status="PASS" signature="Fire()[pri:0, instance:com.Test.LoginTest@42607a4f]" name="Fire" is-config="true" duration-ms="124" started-at="2021-12-05T22:36:01 IST" finished-at="2021-12-05T22:36:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fire -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.LoginTest@42607a4f]" name="setup" is-config="true" duration-ms="11228" started-at="2021-12-05T22:36:01 IST" finished-at="2021-12-05T22:36:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Checkblankmail()[pri:6, instance:com.Test.LoginTest@42607a4f]" name="Checkblankmail" duration-ms="530" started-at="2021-12-05T22:36:12 IST" finished-at="2021-12-05T22:36:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Checkblankmail -->
+        <test-method status="PASS" signature="Fire()[pri:0, instance:com.Test.LoginTest@42607a4f]" name="Fire" is-config="true" duration-ms="96" started-at="2021-12-05T22:36:13 IST" finished-at="2021-12-05T22:36:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fire -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.LoginTest@42607a4f]" name="setup" is-config="true" duration-ms="13001" started-at="2021-12-05T22:36:13 IST" finished-at="2021-12-05T22:36:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateImage()[pri:7, instance:com.Test.LoginTest@42607a4f]" name="validateImage" duration-ms="118" started-at="2021-12-05T22:36:26 IST" finished-at="2021-12-05T22:36:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateImage -->
+        <test-method status="PASS" signature="Fire()[pri:0, instance:com.Test.LoginTest@42607a4f]" name="Fire" is-config="true" duration-ms="182" started-at="2021-12-05T22:36:26 IST" finished-at="2021-12-05T22:36:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fire -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.LoginTest@42607a4f]" name="setup" is-config="true" duration-ms="10634" started-at="2021-12-05T22:36:26 IST" finished-at="2021-12-05T22:36:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckHeading()[pri:8, instance:com.Test.LoginTest@42607a4f]" name="CheckHeading" duration-ms="55" started-at="2021-12-05T22:36:37 IST" finished-at="2021-12-05T22:36:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHeading -->
+        <test-method status="PASS" signature="Fire()[pri:0, instance:com.Test.LoginTest@42607a4f]" name="Fire" is-config="true" duration-ms="240" started-at="2021-12-05T22:36:37 IST" finished-at="2021-12-05T22:36:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fire -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.LoginTest@42607a4f]" name="setup" is-config="true" duration-ms="11017" started-at="2021-12-05T22:36:37 IST" finished-at="2021-12-05T22:36:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkRegistrationLink()[pri:9, instance:com.Test.LoginTest@42607a4f]" name="checkRegistrationLink" duration-ms="928" started-at="2021-12-05T22:36:48 IST" finished-at="2021-12-05T22:36:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRegistrationLink -->
+        <test-method status="PASS" signature="Fire()[pri:0, instance:com.Test.LoginTest@42607a4f]" name="Fire" is-config="true" duration-ms="101" started-at="2021-12-05T22:36:49 IST" finished-at="2021-12-05T22:36:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fire -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.LoginTest@42607a4f]" name="setup" is-config="true" duration-ms="7961" started-at="2021-12-05T22:36:49 IST" finished-at="2021-12-05T22:36:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test10()[pri:10, instance:com.Test.LoginTest@42607a4f]" name="test10" duration-ms="2576" started-at="2021-12-05T22:36:57 IST" finished-at="2021-12-05T22:37:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10 -->
+        <test-method status="PASS" signature="Fire()[pri:0, instance:com.Test.LoginTest@42607a4f]" name="Fire" is-config="true" duration-ms="307" started-at="2021-12-05T22:37:00 IST" finished-at="2021-12-05T22:37:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fire -->
+      </class> <!-- com.Test.LoginTest -->
+      <class name="com.Test.AddUserTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.AddUserTest@4fcd19b3]" name="setup" is-config="true" duration-ms="12594" started-at="2021-12-05T22:37:00 IST" finished-at="2021-12-05T22:37:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyuserpageColumn()[pri:1, instance:com.Test.AddUserTest@4fcd19b3]" name="VerifyuserpageColumn" duration-ms="248" started-at="2021-12-05T22:37:13 IST" finished-at="2021-12-05T22:37:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyuserpageColumn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.AddUserTest@4fcd19b3]" name="tearDown" is-config="true" duration-ms="59" started-at="2021-12-05T22:37:13 IST" finished-at="2021-12-05T22:37:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.AddUserTest@4fcd19b3]" name="setup" is-config="true" duration-ms="9565" started-at="2021-12-05T22:37:13 IST" finished-at="2021-12-05T22:37:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifySideBar()[pri:2, instance:com.Test.AddUserTest@4fcd19b3]" name="VerifySideBar" duration-ms="30" started-at="2021-12-05T22:37:23 IST" finished-at="2021-12-05T22:37:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySideBar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.AddUserTest@4fcd19b3]" name="tearDown" is-config="true" duration-ms="88" started-at="2021-12-05T22:37:23 IST" finished-at="2021-12-05T22:37:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.AddUserTest@4fcd19b3]" name="setup" is-config="true" duration-ms="9597" started-at="2021-12-05T22:37:23 IST" finished-at="2021-12-05T22:37:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckURL()[pri:3, instance:com.Test.AddUserTest@4fcd19b3]" name="CheckURL" duration-ms="8" started-at="2021-12-05T22:37:32 IST" finished-at="2021-12-05T22:37:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckURL -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.AddUserTest@4fcd19b3]" name="tearDown" is-config="true" duration-ms="552" started-at="2021-12-05T22:37:32 IST" finished-at="2021-12-05T22:37:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.AddUserTest@4fcd19b3]" name="setup" is-config="true" duration-ms="8276" started-at="2021-12-05T22:37:33 IST" finished-at="2021-12-05T22:37:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyHeading()[pri:4, instance:com.Test.AddUserTest@4fcd19b3]" name="VerifyHeading" duration-ms="38" started-at="2021-12-05T22:37:41 IST" finished-at="2021-12-05T22:37:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHeading -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.AddUserTest@4fcd19b3]" name="tearDown" is-config="true" duration-ms="267" started-at="2021-12-05T22:37:41 IST" finished-at="2021-12-05T22:37:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.AddUserTest@4fcd19b3]" name="setup" is-config="true" duration-ms="9298" started-at="2021-12-05T22:37:41 IST" finished-at="2021-12-05T22:37:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifySubmitButton()[pri:5, instance:com.Test.AddUserTest@4fcd19b3]" name="VerifySubmitButton" duration-ms="77" started-at="2021-12-05T22:37:51 IST" finished-at="2021-12-05T22:37:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySubmitButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.AddUserTest@4fcd19b3]" name="tearDown" is-config="true" duration-ms="391" started-at="2021-12-05T22:37:51 IST" finished-at="2021-12-05T22:37:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.AddUserTest@4fcd19b3]" name="setup" is-config="true" duration-ms="8693" started-at="2021-12-05T22:37:51 IST" finished-at="2021-12-05T22:38:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateTitleAfterClickOnCancle()[pri:6, instance:com.Test.AddUserTest@4fcd19b3]" name="validateTitleAfterClickOnCancle" duration-ms="237" started-at="2021-12-05T22:38:00 IST" finished-at="2021-12-05T22:38:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleAfterClickOnCancle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.AddUserTest@4fcd19b3]" name="tearDown" is-config="true" duration-ms="67" started-at="2021-12-05T22:38:00 IST" finished-at="2021-12-05T22:38:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.AddUserTest@4fcd19b3]" name="setup" is-config="true" duration-ms="8919" started-at="2021-12-05T22:38:00 IST" finished-at="2021-12-05T22:38:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="VerifyAlertAfterAddUser()[pri:7, instance:com.Test.AddUserTest@4fcd19b3]" name="VerifyAlertAfterAddUser" duration-ms="1066" started-at="2021-12-05T22:38:09 IST" finished-at="2021-12-05T22:38:10 IST">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=92.0.4515.159)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52575}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dbd0970616c6e5ad0027e0f2ecb1fc0a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=92.0.4515.159)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52575}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dbd0970616c6e5ad0027e0f2ecb1fc0a
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+at com.Pages.AddUserPage.adduserdata(AddUserPage.java:83)
+at com.Test.AddUserTest.VerifyAlertAfterAddUser(AddUserTest.java:71)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAlertAfterAddUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.AddUserTest@4fcd19b3]" name="tearDown" is-config="true" duration-ms="2320" started-at="2021-12-05T22:38:10 IST" finished-at="2021-12-05T22:38:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.AddUserTest -->
+      <class name="com.Test.RegistrationPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.RegistrationPageTest@5d11346a]" name="setup" is-config="true" duration-ms="9489" started-at="2021-12-05T22:41:12 IST" finished-at="2021-12-05T22:41:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkAlreadyMembershipLink()[pri:1, instance:com.Test.RegistrationPageTest@5d11346a]" name="checkAlreadyMembershipLink" duration-ms="245" started-at="2021-12-05T22:41:21 IST" finished-at="2021-12-05T22:41:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAlreadyMembershipLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.RegistrationPageTest@5d11346a]" name="tearDown" is-config="true" duration-ms="229" started-at="2021-12-05T22:41:22 IST" finished-at="2021-12-05T22:41:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.RegistrationPageTest@5d11346a]" name="setup" is-config="true" duration-ms="7118" started-at="2021-12-05T22:41:22 IST" finished-at="2021-12-05T22:41:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="FillRegistrationForm()[pri:2, instance:com.Test.RegistrationPageTest@5d11346a]" name="FillRegistrationForm" duration-ms="2126" started-at="2021-12-05T22:41:29 IST" finished-at="2021-12-05T22:41:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillRegistrationForm -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.RegistrationPageTest@5d11346a]" name="tearDown" is-config="true" duration-ms="94" started-at="2021-12-05T22:41:31 IST" finished-at="2021-12-05T22:41:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.RegistrationPageTest -->
+      <class name="com.Test.UserTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.UserTest@7a36aefa]" name="setup" is-config="true" duration-ms="9730" started-at="2021-12-05T22:41:31 IST" finished-at="2021-12-05T22:41:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyHeading()[pri:2, instance:com.Test.UserTest@7a36aefa]" name="VerifyHeading" duration-ms="36" started-at="2021-12-05T22:41:41 IST" finished-at="2021-12-05T22:41:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHeading -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.UserTest@7a36aefa]" name="tearDown" is-config="true" duration-ms="306" started-at="2021-12-05T22:41:41 IST" finished-at="2021-12-05T22:41:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.UserTest@7a36aefa]" name="setup" is-config="true" duration-ms="15287" started-at="2021-12-05T22:41:41 IST" finished-at="2021-12-05T22:41:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckColumnTitle()[pri:3, instance:com.Test.UserTest@7a36aefa]" name="CheckColumnTitle" duration-ms="152" started-at="2021-12-05T22:41:57 IST" finished-at="2021-12-05T22:41:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckColumnTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.UserTest@7a36aefa]" name="tearDown" is-config="true" duration-ms="644" started-at="2021-12-05T22:41:57 IST" finished-at="2021-12-05T22:41:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.UserTest@7a36aefa]" name="setup" is-config="true" duration-ms="14743" started-at="2021-12-05T22:41:57 IST" finished-at="2021-12-05T22:42:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CorrectStateSelected()[pri:4, instance:com.Test.UserTest@7a36aefa]" name="CorrectStateSelected" duration-ms="35" started-at="2021-12-05T22:42:12 IST" finished-at="2021-12-05T22:42:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CorrectStateSelected -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.UserTest@7a36aefa]" name="tearDown" is-config="true" duration-ms="1148" started-at="2021-12-05T22:42:12 IST" finished-at="2021-12-05T22:42:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.UserTest@7a36aefa]" name="setup" is-config="true" duration-ms="13745" started-at="2021-12-05T22:42:13 IST" finished-at="2021-12-05T22:42:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckAlertHandle()[pri:5, instance:com.Test.UserTest@7a36aefa]" name="CheckAlertHandle" duration-ms="3600" started-at="2021-12-05T22:42:27 IST" finished-at="2021-12-05T22:42:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAlertHandle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.UserTest@7a36aefa]" name="tearDown" is-config="true" duration-ms="1029" started-at="2021-12-05T22:42:31 IST" finished-at="2021-12-05T22:42:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.UserTest@7a36aefa]" name="setup" is-config="true" duration-ms="15257" started-at="2021-12-05T22:42:32 IST" finished-at="2021-12-05T22:42:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ListTitle()[pri:6, instance:com.Test.UserTest@7a36aefa]" name="ListTitle" duration-ms="44" started-at="2021-12-05T22:42:47 IST" finished-at="2021-12-05T22:42:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.UserTest@7a36aefa]" name="tearDown" is-config="true" duration-ms="59" started-at="2021-12-05T22:42:47 IST" finished-at="2021-12-05T22:42:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.UserTest@7a36aefa]" name="setup" is-config="true" duration-ms="15085" started-at="2021-12-05T22:42:47 IST" finished-at="2021-12-05T22:43:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifyMobileNo()[pri:10, instance:com.Test.UserTest@7a36aefa]" name="VerifyMobileNo" duration-ms="386" started-at="2021-12-05T22:43:02 IST" finished-at="2021-12-05T22:43:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMobileNo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.UserTest@7a36aefa]" name="tearDown" is-config="true" duration-ms="188" started-at="2021-12-05T22:43:03 IST" finished-at="2021-12-05T22:43:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Test.UserTest@7a36aefa]" name="setup" is-config="true" duration-ms="17046" started-at="2021-12-05T22:43:03 IST" finished-at="2021-12-05T22:43:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickAddUserPage()[pri:12, instance:com.Test.UserTest@7a36aefa]" name="clickAddUserPage" duration-ms="701" started-at="2021-12-05T22:43:20 IST" finished-at="2021-12-05T22:43:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAddUserPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Test.UserTest@7a36aefa]" name="tearDown" is-config="true" duration-ms="90" started-at="2021-12-05T22:43:20 IST" finished-at="2021-12-05T22:43:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.UserTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
