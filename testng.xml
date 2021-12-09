@@ -4,7 +4,6 @@
 	<listeners>
 		<listener class-name="com.listeners.Listener"></listener>
 	</listeners>
-
 	<test name="Test">
 		<classes>
 			<class name="com.Test.LoginTest" />
