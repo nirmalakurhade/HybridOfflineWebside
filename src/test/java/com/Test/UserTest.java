@@ -35,25 +35,25 @@ public class UserTest extends Testbase {
 		driver.close();
 	}
 	
-	@Test(priority = 2)
+	@Test//(priority = 2)
 	public void VerifyHeading() {
 	Assert.assertEquals(up.Heading(),"Java By Kiran");
 	}
-	@Test(priority = 3)
+	@Test//(priority = 3)
     public void CheckColumnTitle() {
     	Assert.assertEquals(up.ColumnTitle(), true);
     }
-	@Test(priority = 4)
+	@Test//(priority = 4)
 	public void CorrectStateSelected() {
 		Assert.assertEquals(up.StateSelected(),2);
 	}
 	
-	@Test(priority = 5)
+	@Test//(priority = 5)
 	public void CheckAlertHandle() throws Exception {
 		Assert.assertEquals(up.AlertHandle(),"You can not delete Default User");
 	}
 	
-	@Test (priority = 6)
+	@Test //(priority = 6)
 	public void ListTitle() {
 		Assert.assertEquals(up.ListTitle(),true);
 	}
@@ -69,7 +69,7 @@ public class UserTest extends Testbase {
 	public void VerifygmailUsers() {
 		Assert.assertEquals(up.TotalGmailUsers(),true);
 	}*/
-	@Test (priority = 10)
+	@Test //(priority = 10)
 	public void VerifyMobileNo() throws Exception {
 		Assert.assertEquals(up.CheckMobileNo(),true);
 	}
@@ -77,7 +77,7 @@ public class UserTest extends Testbase {
 	public void VerifyHomePageUrl() throws Exception {
 		Assert.assertEquals(up.GetHomepageUrl(),true);
 	}*/
-	@Test(priority = 12)
+	@Test//(priority = 12)
 	public void clickAddUserPage() {
 		ap=up.clickOnAddUser();
 		String act = driver.getTitle();

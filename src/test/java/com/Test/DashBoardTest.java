@@ -34,37 +34,37 @@ public class DashBoardTest extends Testbase{
 	public void tearDown() {
 		driver.close();
 	}
-	@Test(priority = 1)
+	@Test//(priority = 1)
 	public void CheckTotalinnerBox() {
 		Assert.assertEquals(dp.TotalinnerBox(), 4);
 	}
 
-	@Test(priority = 2)
+	@Test//(priority = 2)
 	public void ValidDashboardPage() {
 		Assert.assertEquals(dp.DashboardPage(), "Java By Kiran");
 	}
 
-	@Test(priority = 3)
+	@Test//(priority = 3)
 	public void CheckTotalCourses() {
 		Assert.assertEquals(dp.TotalCourses(), true);
 	}
 
-	@Test(priority = 4)
+	@Test//(priority = 4)
 	public void TotalMoreInfoLink() {
 		Assert.assertEquals(dp.TotalMoreInfoLink(), 4);
 	}
 
-	@Test(priority = 5)
+	@Test//(priority = 5)
 	public void WindowHandeling() throws Exception {
 		Assert.assertEquals(dp.WindowHandeling(), null);
 	}
 
-	@Test(priority = 6)
+	@Test//(priority = 6)
 	public void NoOfIcons() {
 		Assert.assertEquals(dp.NoOfIcons(), 4);
 }
 
-	@Test(priority = 7)
+	@Test//(priority = 7)
 	public void checkUsersLinkMenu() {
 		up = dp.NavigateUsersPage(driver);
 		String act = driver.getTitle();
@@ -72,7 +72,7 @@ public class DashBoardTest extends Testbase{
 		Assert.assertEquals(act, exp);
 	}
 
-	@Test(priority = 8)
+	@Test//(priority = 8)
 	public void checkOperatorsLinkMenu() {
 		op = dp.NavigateOperatorsPage(driver);
 		String act = driver.getTitle();
@@ -81,7 +81,7 @@ public class DashBoardTest extends Testbase{
 
 	}
 
-	@Test(priority = 9)
+	@Test//(priority = 9)
 	public void checkDownloadsLinkMenu() {
 		dl = dp.NavigateDownloadsPage(driver);
 		String act = driver.getTitle();
@@ -89,7 +89,7 @@ public class DashBoardTest extends Testbase{
 		Assert.assertEquals(act, exp);
 	}
 
-	@Test(priority = 10)
+	@Test//(priority = 10)
 	public void checkLogoutLinkMenu() {
 		lp = dp.NavigateLogoutPage(driver);
 		String act = driver.getTitle();

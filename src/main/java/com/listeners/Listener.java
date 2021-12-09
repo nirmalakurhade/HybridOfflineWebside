@@ -5,8 +5,11 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import com.BaseClass.Testbase;
+import com.aventstack.extentreports.model.Report;
 
-public class Listener implements ITestListener{
+
+public class Listener extends Testbase  implements ITestListener{
 
 	private Logger log = Logger.getLogger(Listener.class);
 	
@@ -42,6 +45,7 @@ public class Listener implements ITestListener{
 	public void onFinish(ITestContext context) {
 
 		log.info("Testcase suite is finished with the execution");
-	}
+	            report.flush();
+	 }
 
 }

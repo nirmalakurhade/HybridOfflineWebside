@@ -36,19 +36,19 @@ public class LoginTest extends Testbase {
 		driver.close();
 	}
    
-   @Test(priority = 1)
+   @Test//(priority = 1)
 	public void ValidetUrl() {
 		Assert.assertEquals(lp.cheakUrl(), true);
 	}
 
-	@Test(priority = 2)
+	@Test//(priority = 2)
 	public void PasswordError() {
 		String Fail = driver.getTitle();
 		log.info(Fail);
 		Assert.assertEquals(lp.FailLoginPassword(),false);
 	}
 
-	@Test(priority = 3)
+	@Test//(priority = 3)
 	public void mailError() {
 		Assert.assertEquals(lp.FailLoginmail(),true);
 	}
@@ -58,31 +58,31 @@ public class LoginTest extends Testbase {
 		Assert.assertEquals(lp.Headline(), true);
 	}
 */
-	@Test(priority = 5)
+	@Test//(priority = 5)
 	public void Checkmailbox() {
 		Assert.assertEquals(lp.checkmail(), "Email");
 	}
 
-	@Test(priority = 6)
+	@Test//(priority = 6)
 	public void Checkblankmail() {
 		Assert.assertEquals(lp.BlankData(), "Please enter email as kiran@gmail.com");
 	}
 
-	@Test(priority = 7)
+	@Test//(priority = 7)
 	public void validateImage() {
 		Assert.assertEquals(lp.VerifyLogo(), true);
 	}
 
-	@Test(priority = 8)
+	@Test//(priority = 8)
 	public void CheckHeading() {
 		Assert.assertEquals(lp.verifyHeadline(), true);
 	}
-	@Test(priority = 9)
+	@Test//(priority = 9)
 	public void checkRegistrationLink() {
 		rp = lp.clickOnRegistrationLink(driver);
 		Assert.assertEquals(driver.getTitle(), "JavaByKiran | Registration Page");
 	}
-	@Test(priority = 10)
+	@Test//(priority = 10)
 	public void test10() {
 		dp = lp.Validlogin(driver);
 		Assert.assertEquals(driver.getTitle(),"JavaByKiran | Dashboard");

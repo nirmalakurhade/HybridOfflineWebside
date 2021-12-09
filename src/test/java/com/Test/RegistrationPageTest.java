@@ -30,7 +30,7 @@ public class RegistrationPageTest extends Testbase{
 	public void tearDown() {
 		driver.close();
 	}
-	@Test(priority=1)
+	@Test//(priority=1)
 	public void checkAlreadyMembershipLink() {
 		
 		lp=rp.clickOnAlreadyMembership();
@@ -39,7 +39,7 @@ public class RegistrationPageTest extends Testbase{
 		String exp = "JavaByKiran | Log in";
 		Assert.assertEquals(act, exp);
 	}
-	@Test(priority = 2)
+	@Test//(priority = 2)
 	public void FillRegistrationForm() {
 		boolean status=	rp.registrationForm();
 		Assert.assertTrue(status);

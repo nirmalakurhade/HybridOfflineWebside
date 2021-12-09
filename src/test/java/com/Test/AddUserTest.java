@@ -37,36 +37,36 @@ public class AddUserTest extends Testbase{
 		driver.close();
 	}
 
-	@Test(priority = 1)
+	@Test//(priority = 1)
 	public void VerifyuserpageColumn() {
 		Assert.assertEquals(ap.userpageColumn(), true);
 	}
 
-	@Test(priority = 2)
+	@Test//(priority = 2)
 	public void VerifySideBar() {
 		Assert.assertEquals(ap.SideBar(), 4);
 	}
 
-	@Test(priority = 3)
+	@Test//(priority = 3)
 	public void CheckURL() {
 		Assert.assertEquals(ap.URL(),"file:///E:/Selenium%20Softwares/Offline%20Website/Offline%20Website/pages/examples/add_user.html");
 	}
 
-	@Test(priority = 4)
+	@Test//(priority = 4)
 	public void VerifyHeading() {
 		Assert.assertEquals(ap.PageTitle(), "Java By Kiran");
 	}
 
-	@Test(priority = 5)
+	@Test//(priority = 5)
 	public void VerifySubmitButton() {
 		Assert.assertEquals(ap.SubmitButton(), "Submit");
 	}
-	@Test(priority = 6)
+	@Test//(priority = 6)
 	public void validateTitleAfterClickOnCancle() throws Exception {
 		up = ap.clickOnCancle();
 		Assert.assertEquals(driver.getTitle(), "JavaByKiran | User");
 }
-	@Test(priority = 7)
+	@Test//(priority = 7)
 	public void VerifyAlertAfterAddUser() throws Exception {
 		Assert.assertEquals(ap.adduserdata(),"User Added Successfully. You can not see added user.");
 	}
